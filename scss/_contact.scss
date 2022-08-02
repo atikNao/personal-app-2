@@ -1,0 +1,31 @@
+.contact {
+    height: 100%;
+     padding-top: 35vh;
+     overflow: hidden;
+     text-align: center;
+   //   background: url("../img/admin.jpg")center top;
+   //   opacity: 0.9; 
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+     h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+     }
+
+     &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+     .social-icons {
+        position: initial;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }     
+ }
